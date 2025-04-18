@@ -6,9 +6,9 @@ import (
 
 	"net/http"
 
-	morseimpl "github.com/Jonathan-Guerra22/morse-code-api/handlers/morseImpl"
-	"github.com/Jonathan-Guerra22/morse-code-api/handlers/dto"
-	Encodertype "github.com/Jonathan-Guerra22/morse-code-api/handlers/encoderType"
+	"github.com/JHONYKK22/morse-code-api/handlers/dto"
+	Encodertype "github.com/JHONYKK22/morse-code-api/handlers/encoderType"
+	morseimpl "github.com/JHONYKK22/morse-code-api/handlers/morseImpl"
 	"github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
 )
@@ -17,7 +17,7 @@ var wx http.ResponseWriter
 
 func EncodeBody(w http.ResponseWriter, r *http.Request) {
 	wx = w
-	
+
 	fromBody(r, Encodertype.ENCODE)
 }
 

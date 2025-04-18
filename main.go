@@ -8,7 +8,7 @@ import (
 
 	"os"
 
-	"github.com/Jonathan-Guerra22/morse-code-api/handlers/encoder"
+	"github.com/JHONYKK22/morse-code-api/handlers/encoder"
 	"github.com/gorilla/mux"
 	env "github.com/joho/godotenv"
 )
