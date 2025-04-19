@@ -20,7 +20,7 @@ go run main.go
 
 ## Doocker build and run
 
-```sf
+```sh
 docker build -t morse-code-go-api:latest .
 ```
 
@@ -31,7 +31,7 @@ docker run -dp PORT:ENVPORT morse-code-go-api:latest
 ## Apis
 
 <!-- ### <span style="color:#25881e">Encode</span> -->
-- ### <span >Encode</span>
+- ### Encode
 
 <!-- #### <span style="color:#FFF151">POST</span> -->
 #### $\color{#FFF151}POST$

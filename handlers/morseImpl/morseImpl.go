@@ -1,7 +1,7 @@
 package morseImpl
 
 import (
-	"github.com/JHONYKK22/morse-code-mod/morse"
+	"github.com/Jonathan-Guerra22/morse-code-mod/morse"
 )
 
 type MorseRunner interface {
