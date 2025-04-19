@@ -47,13 +47,13 @@ docker run -dp PORT:ENVPORT morse-code-go-api:latest
 <!-- #### <span style="color:#32DE84">GET</span> -->
 #### $\color{#32DE84}GET$
 
-> localhost:8090/encode/${\color{#32DE84}hello}$
+> localhost:8090/encode/`hello`
 
 - ### Decode
+  
+#### ${\color{#FFF151}POST}$
 
-#### $\color{#FFF151}POST$
-
->localhost:8090/decode
+> localhost:8090/decode
 
 ```json
 {
@@ -61,7 +61,7 @@ docker run -dp PORT:ENVPORT morse-code-go-api:latest
 }
 ```
 
-#### $\color{#32DE84}GET$
+#### ${\color{#32DE84}GET}$
 
 <!-- >localhost:8090/decode/<span style="color:#32DE84">.... . .-.. .-.. ---</span> -->
-> localhost:8090/encode/${\color{#32DE84}.... . .-.. .-.. ---}$
+> localhost:8090/encode/`.... . .-.. .-.. ---`
